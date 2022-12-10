@@ -38,7 +38,7 @@ All the following blueprints, you can just copy from level blueprint ```Billiard
 
 For this demo, we use Left-Mouse click to control.When players released fire ```StopAim``` the white ball will been shot out.
 
-![Left-click Input](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/CreateInputEvent.png?2)
+![Left-click Input](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/CreateLeftClickInputControl.png?2)
 
 ### Finally
 
