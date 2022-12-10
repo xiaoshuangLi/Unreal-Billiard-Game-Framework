@@ -32,27 +32,13 @@ All the following blueprints, you can just copy from level blueprint ```Billiard
 
 ```GetGame``` return the ```BP_BilliardGame``` actor, it's convenient for later program.
 
-![GetGame](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/CreateFunctionGameGame.png)
+![GetGame](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/CreateFunctionGetGame.png)
 
 ### Add input to Play
 
-For this demo, we use Left-Mouse click to control.When players released fire ```StopAim``` the white ball will been shot out.And we need to create following variables:  
-```Stared``` is aimed or not, use for EventTick.  
-```Factor``` is the paramter for animating cue to simulate aiming.  
-```AnimatedForce``` the force number when fire ```StopAim```, to simulate hit out the ball.  
+For this demo, we use Left-Mouse click to control.When players released fire ```StopAim``` the white ball will been shot out.
 
 ![Left-click Input](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/CreateInputEvent.png)
-![Start and Stop Aim](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/CreateEventStartAndStopAim.png)
-
-### Convert ```Factor``` to hit force
-
-Thie hit force to for the ```BP_BilliardGame``` should between 0 and 1.The reason we need ```Factor``` is we can use ```Sin``` to change float smoothly.Good for the animation.
-
-![Convert Factor](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/CreateFunctionConvertFactorToForce.png)
-
-### Animate Cue for every frame
-
-![Animate Cue](https://github.com/xiaoshuangLi/Unreal-Documation/blob/master/BilliardGameFramework/CreateBilliardGame/imgs/EventTick.png)
 
 ### Finally
 
