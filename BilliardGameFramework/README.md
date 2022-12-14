@@ -17,5 +17,5 @@ A feature overview: https://youtu.be/guxRv1awcvg
 
 ### [Create Billiard Game](https://github.com/xiaoshuangLi/Unreal-Documation/tree/master/BilliardGameFramework/CreateBilliardGame)
 
-[TODO] Create AI Player
-[TODO] Switch Mesh Props
+* [TODO] Create AI Player
+* [TODO] Switch Mesh Props
