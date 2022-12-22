@@ -11,7 +11,7 @@ BilliardGameFramework helps you to build your own billiard game easily. It conta
 BilliardGameFramework is built for Blueprint.  
 In a word, if you're building billiard game, BilliardGameFramework can help you out!
 
-A feature overview: https://youtu.be/guxRv1awcvg
+A feature overview: https://youtu.be/XHm2MGeiIPg
 
 ## Quick Start
 
